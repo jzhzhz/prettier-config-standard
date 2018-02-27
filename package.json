@@ -1,0 +1,43 @@
+{
+  "name": "prettier-config-standard",
+  "version": "0.0.0",
+  "description": "Prettier configuration compatible with standard.",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "format": "prettier --write *.js",
+    "prelint": "npm run format",
+    "lint": "standard",
+    "unit": "jest",
+    "pretest": "npm run lint",
+    "test": "npm run unit"
+  },
+  "files": [
+    ".prettierrc.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/prettier-config-standard.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "standard"
+  ],
+  "author": "George Chung <Gerhut@GMail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gerhut/prettier-config-standard/issues"
+  },
+  "homepage": "https://github.com/Gerhut/prettier-config-standard#readme",
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "prettier": "^1.11.0",
+    "standard": "^11.0.0"
+  },
+  "dependencies": {},
+  "standard": {
+    "ignore": [
+      "fixture.js"
+    ]
+  }
+}
