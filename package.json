@@ -31,7 +31,7 @@
   "homepage": "https://github.com/Gerhut/prettier-config-standard#readme",
   "devDependencies": {
     "jest": "^22.4.2",
-    "prettier": "^1.11.0",
+    "prettier": "^1.13.0",
     "standard": "^11.0.0"
   },
   "dependencies": {},
